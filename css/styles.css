@@ -72,9 +72,6 @@ body {
   color: var(--accent-color);
 }
 
-.contact.current {
-  color: var(--accent-color);
-}
 /* ========== header ========== */
 
 /* ========== main ========== */
@@ -135,14 +132,24 @@ body {
 .section-title {
   color: var(--primary-text-color);
   font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.section-title-work {
+  color: var(--primary-text-color);
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   text-transform: uppercase;
 }
 
 .text {
   color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .text-team {
@@ -271,9 +278,6 @@ body {
 /* ========== header ========== */
 
 /* ========== main ========== */
-.portfolio-background {
-  background-color: #e5e5e5;
-}
 
 .visually-hidden {
   position: absolute;
@@ -307,6 +311,7 @@ body {
   line-height: 1.6;
   text-align: center;
   cursor: pointer;
+  border: none;
 }
 
 .portfolio-button.primary {
@@ -321,6 +326,7 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
+  color: var(--white-text-color);
   background-color: var(--accent-color);
 }
 /* ========== main ========== */
